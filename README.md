@@ -27,24 +27,35 @@ The dataset was formulated as a binary sentiment classification problem:
 
 **1. Sentiment Classification**
 Predicting whether a customer review expresses:
+
 a. Positive sentiment (1)
+
 b. Negative sentiment (0)
+
 This task reflects real-world business applications such as:
+
 a. Monitoring customer satisfaction
+
 b. Detecting negative feedback early
+
 c. Supporting service improvement and product evaluation
 
 ## Dataset
 
 **1. Source**: UCI Sentiment Labelled Sentences Dataset
+
 **2. Link**: https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences
+
 **3. Size**: 3,000 sentences
+
 **4. Sources**: Amazon product reviews, Yelp business reviews, IMDb movie reviews
 
 ## Features:
 
 **1. text** – review sentence (independent variable)
+
 **2. label** – sentiment class (dependent variable)
+
 The dataset combines multiple review domains, allowing the models to learn sentiment
 patterns across different writing styles and contextual expressions.
 
@@ -90,6 +101,7 @@ To evaluate model performance, I used:
 3. Recall
 4. F1-score
 5. Confusion matrices for error analysis
+   
 These metrics provide a balanced assessment of classification performance and allow
 direct comparison between different models. Linear SVM achieved the highest overall
 accuracy, followed closely by Logistic Regression, while Naive Bayes provided a strong and
@@ -101,11 +113,11 @@ Although the dataset is anonymised and publicly available, sentiment analysis sy
 still reflect biases present in user-generated language. Expressions of emotion, sarcasm,
 and cultural differences may be misinterpreted by automated systems.
 
-In real-world applications, such models should be used to support — not replace — human
+In real-world applications, such models should be used to support and not replace no human
 judgement, particularly when monitoring customer feedback or moderating online content.
 Responsible use requires transparency, regular evaluation, and awareness of potential
 misclassification risks.
 
 Ayomide Ogunmakinwa
-MSc Data Science
-University of Salford
+
+DATA SCIENTIST
